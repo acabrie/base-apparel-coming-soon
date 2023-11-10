@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="">
+  <link href="./styles.css" rel="stylesheet">
+  <title>Base Apparel coming soon page</title>
+  <script src="main.js" defer></script>
+
+</head>
+<body>
+  <main class="container">
+    <div class="main-image">
+    </div>
+
+    <div class="logo"></div>
+
+    <section class="content">
+      <h1 class="upper text-dark fw-3 font-josefin fs-3"><span class="text-desat fw-1">We're</span><br>coming <br>soon</h1>
+      <p class="font-josefin fs-2 text-desat">Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      
+      <form class="form" action="#" id="form">
+        <input type="email" placeholder="Email Address" name="email" id="email" spellcheck="false" onkeydown="validateEmail()">
+        <br>
+        
+        <img src="./images/icon-error.svg" alt="error icon" class="error-icon" id="icon">
+        <button type="submit" class="btn"><img src="./images/icon-arrow.svg"></button>
+        
+      </form>  
+      <p class="error font-josefin" id="error"></p>
+    </section>
+  </main>
+</body>
+</html>
